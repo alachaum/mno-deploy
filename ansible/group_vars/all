@@ -83,6 +83,20 @@ newrelic_app_name: My Application
 newrelic_plugins:
   mongodb: false
 
+# Userify configuration
+# Should be configured in secret
+userify:
+  maestrano:
+    api_id: !!null
+    api_key: !!null
+  mno_enterprise: {}
+  mnohub: {}
+  connec: {}
+  mongodb: {}
+  impac: {}
+  nex: {}
+  dev_platform: {}
+
 # Splunk configuration
 splunk:
   skip: true
